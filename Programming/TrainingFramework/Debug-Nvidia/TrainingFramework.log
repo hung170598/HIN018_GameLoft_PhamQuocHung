@@ -1,0 +1,23 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  GSMenu.cpp
+e:\workspace\gameloft\hin018_gameloft_phamquochung\programming\trainingframework\src\gamestates\gsmenu.cpp(26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\workspace\gameloft\hin018_gameloft_phamquochung\programming\trainingframework\src\gamestates\gsmenu.cpp(32): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\workspace\gameloft\hin018_gameloft_phamquochung\programming\trainingframework\src\gamestates\gsmenu.cpp(43): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\workspace\gameloft\hin018_gameloft_phamquochung\programming\trainingframework\src\gamestates\gsmenu.cpp(55): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[7],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[7],TEXT_COLOR &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[7],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[7],TEXT_COLOR &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+  e:\workspace\gameloft\hin018_gameloft_phamquochung\programming\trainingframework\src\gamestates\gsmenu.cpp(54): note: see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[7],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[7],TEXT_COLOR &&,double &&)' being compiled
+  TrainingFramework.vcxproj -> E:\Workspace\Gameloft\HIN018_GameLoft_PhamQuocHung\Programming\\BIN-Nvidia\TrainingFramework.exe

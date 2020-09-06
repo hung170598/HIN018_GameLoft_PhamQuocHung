@@ -1,0 +1,33 @@
+Physics-based throwing game
+
+You find a small world, need to return it to a safe spot. What better way than to throw it there?
+
+Obstacles
++Wall
++Bouncy walls, reflect shot
++Water
++Spikes
+-Switches that open doors?
+
+Controlled with the mouse, project shooting arc
+
+Todo:
+BouncyWall still buggy
+
++Death screen
++Main menu
++level select
++story screen
++level design
+
+graphics
+	character animation!!! ... too hard
++sfx
++music
+
++exit from level
+
+level workflow:
+-inherit from level_base
+-build level
+-add arc drawing, then camera (otherwise theres draw order problems)
